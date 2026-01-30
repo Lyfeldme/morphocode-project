@@ -10,7 +10,10 @@ A modern, responsive portfolio website for data analysts and visualization speci
 
 ## 🚀 Live Demo & Resources
 
-**[View Live Demo](https://your-username.github.io/repository-name/)**
+**Repository:** https://github.com/Lyfeldme/morphocode-project
+
+- **GitHub Pages:** https://lyfeldme.github.io/morphocode-project/
+- **Figma Design:** https://www.figma.com/design/KXO5YGICORLjkt1NSyM17G/Landing-page---Morphocode?node-id=0-1&p=f&t=XCzLQRLT15ciU4jc-0
 
 ## ✨ Features
 
