@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Morphocode explores cities through data analysis and visualization. We research, design, and develop interactive tools for urban informatics.">
+    <meta name="keywords" content="data visualization, urban analysis, mapping, data science, urban informatics">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reduced-motion.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <!-- Title -->
+    <title>Morphocode - Urban Data Visualization</title>
+    <!-- Canonical URL -->
+    <link rel="canonical" href="#!">
+  </head>
+  <body>
+    <!-- Skip to main content (accessibility) -->
+    <a href="#main-content" class="skip-to-main visually-hidden">Skip to main content</a>
+    <!-- Header -->
+    <header class="header" role="banner">
+      <div class="header__container container">
+        <a class="header__logo" href="#!" aria-label="Morphocode homepage">
+        <img src="./svg/logo.svg" 
+          alt="Morphocode - Urban Data Visualization"
+          class="header__logo-img"
+          loading="eager"
+          decoding="sync"
+          width="120"
+          height="15"
+        >
+        </a>
+        <!-- Mobile menu toggle -->
+        <button class="header__mobile-toggle" 
+          aria-label="Toggle navigation menu" 
+          aria-expanded="false"
+          aria-controls="main-navigation">
+        <span class="header__toggle-line"></span>
+        <span class="header__toggle-line"></span>
+        <span class="header__toggle-line"></span>
+        </button>
+        <!-- Navigation -->
+        <div class="header__content">
+          <nav id="main-navigation" 
+            class="header__navigation" 
+            aria-label="Main navigation">
+            <ul class="header__navigation-list">
+              <li class="header__navigation-item">
+                <a class="header__navigation-link header__navigation-link--academy header__navigation-link--active" href="#!" aria-current="page">
+                <span class="link-text">Academy</span>
+                </a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link header__navigation-link--blog" href="#!">
+                <span class="link-text">Blog</span>
+                </a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link header__navigation-link--work" href="#!">
+                <span class="link-text">Work</span>
+                </a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link header__navigation-link--contact" href="#!">
+                <span class="link-text">Contact</span>
+                </a>
+              </li>
+              <li class="header__navigation-item">
+                <a class="header__navigation-link header__navigation-link--about" href="#!">
+                <span class="link-text">About</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+      <!-- Hero Section -->
+      <section class="hero" aria-label="Introduction">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Exploring cities through data 
+              <span class="hero__highlight hero__highlight--analysis">analysis</span> 
+              and 
+              <span class="hero__highlight hero__highlight--visualization">visualization</span>
+            </h1>
+            <div class="hero__side-line">
+              <p class="hero__description">
+                Morphocode is a design and development firm that uses data to visualize urban dynamics and provide location insights. Our team brings together expertise across architecture, urban planning, and software engineering.
+              </p>
+            </div>
+          </div>
+          <div class="hero__image">
+            <img src="./images/analysis-img.webp" 
+              alt="Data visualization dashboard showing urban metrics and location insights"
+              class="hero__image-img" 
+              loading="eager" 
+              decoding="sync"
+              width="600"
+              height="600">
+          </div>
+        </div>
+      </section>
+      <!-- Design & Develop Section -->
+      <section class="design-develop" aria-labelledby="design-develop-heading">
+        <div class="design-develop__container container">
+          <div class="design-develop__image">
+            <img src="./images/design-develop-img.webp" 
+              alt="Team collaborating on research, design, and development projects"
+              class="design-develop__image-img" 
+              loading="eager" 
+              decoding="sync"
+              width="590"
+              height="589">
+          </div>
+          <div class="design-develop__content">
+            <h2 class="design-develop__title" id="design-develop-heading">
+              We research, <span class="design-develop--design">design</span>, and <span class="design-develop--develop">develop</span>
+            </h2>
+            <div class="design-develop__side-line">
+              <p class="design-develop__description">
+                Our portfolio ranges from interactive web maps and information graphics to custom software tools for data analysis and visualization.
+              </p>
+              <a class="design-develop__link" 
+                href="#!"
+                aria-label="View our research, design, and development projects">
+              View Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Learn Section -->
+      <section class="learn" aria-labelledby="learn-heading">
+        <div class="learn__container container">
+          <div class="learn__content">
+            <h2 class="learn__title" id="learn-heading"><span class="learn__highlight--learn">Learn</span> with <span class="learn__highlight--code">Morphocode</span></h2>
+            <div class="learn__side-line">
+              <p class="learn__description">
+                Morphocode Academy is an online school that covers topics in data visualization, creative coding, and urban informatics.
+              </p>
+              <a class="learn__link" 
+                href="#!"
+                aria-label="Start learning data visualization, creative coding, and urban informatics">
+              Start Learning
+              </a>
+            </div>
+          </div>
+          <div class="learn__image">
+            <img src="./images/learn-img.webp" 
+              alt="Educational interface showing data visualization courses and tutorials"
+              class="learn__image-img"
+              loading="lazy"
+              decoding="async"
+              width="600"
+              height="599">
+          </div>
+        </div>
+      </section>
+      <!-- Blog Section -->
+      <section class="blog" aria-labelledby="blog-heading">
+        <div class="blog__container container">
+          <header class="blog__header">
+            <h2 class="blog__title" id="blog-heading">From the blog</h2>
+          </header>
+          <ul class="blog__list">
+            <!-- Blog Item 1 -->
+            <li class="blog__item">
+              <a href="#!" class="blog__card-link">
+                <article class="blog__card">
+                  <div class="blog__card-image">
+                    <img src="./images/blog-power-img.webp"
+                      alt="Interactive data visualization tools dashboard showing urban metrics"
+                      class="blog__card-img"
+                      width="330"
+                      height="186"
+                      loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">The power of interactive tools</h3>
+                    <span class="blog__card-decorative" aria-hidden="true"></span>
+                    <p class="blog__card-description">
+                      Tools augment our problem-solving capacity. We rely on them to expand our minds and provide ease, accuracy, and <span class="blog__card-word">[...]</span>
+                    </p>
+                  </div>
+                </article>
+              </a>
+            </li>
+            <!-- Blog Item 2 -->
+            <li class="blog__item">
+              <a href="#!" class="blog__card-link">
+                <article class="blog__card">
+                  <div class="blog__card-image">
+                    <img src="./images/blog-making-img.webp"
+                      alt="Development interface of Morphocode Explorer data visualization tool"
+                      class="blog__card-img"
+                      width="330"
+                      height="186"
+                      loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">The making of Morphocode Explorer</h3>
+                    <span class="blog__card-decorative" aria-hidden="true"></span>
+                    <p class="blog__card-description">
+                      Over the last year, we've been working on a new web tool for interactive data exploration <span class="blog__card-word">[...]</span>
+                    </p>
+                  </div>
+                </article>
+              </a>
+            </li>
+            <!-- Blog Item 3 -->
+            <li class="blog__item">
+              <a href="#!" class="blog__card-link">
+                <article class="blog__card">
+                  <div class="blog__card-image">
+                    <img src="./images/blog-performance-img.webp"
+                      alt="Urban performance metrics visualization chart showing city data"
+                      class="blog__card-img"
+                      width="330"
+                      height="186"
+                      loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">Urban performance measures</h3>
+                    <span class="blog__card-decorative" aria-hidden="true"></span>
+                    <p class="blog__card-description">
+                      Urban performance measures help communities make informed decisions and measure results against goals. <span class="blog__card-word">[...]</span>
+                    </p>
+                  </div>
+                </article>
+              </a>
+            </li>
+            <!-- Blog Item 4 -->
+            <li class="blog__item">
+              <a href="#!" class="blog__card-link">
+                <article class="blog__card">
+                  <div class="blog__card-image">
+                    <img src="./images/blog-walk-img.webp"
+                      alt="Map visualization showing 5-minute walk distances in urban area"
+                      class="blog__card-img"
+                      width="330"
+                      height="186"
+                      loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">The 5-minute walk</h3>
+                    <span class="blog__card-decorative" aria-hidden="true"></span>
+                    <p class="blog__card-description">
+                      The five-minute walk, also known as the "pedestrian shed" is considered to be the distance people are willing <span class="blog__card-word">[...]</span>
+                    </p>
+                  </div>
+                </article>
+              </a>
+            </li>
+            <!-- Blog Item 5 -->
+            <li class="blog__item">
+              <a href="#!" class="blog__card-link">
+                <article class="blog__card">
+                  <div class="blog__card-image">
+                    <img src="./images/blog-location-time-img.webp"
+                      alt="Temporal data visualization of urban movement patterns over time"
+                      class="blog__card-img"
+                      width="330"
+                      height="186"
+                      loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">Location + time: urban data visualization</h3>
+                    <span class="blog__card-decorative" aria-hidden="true"></span>
+                    <p class="blog__card-description">
+                      The most common ways to visually organize information are based on location and time. <span class="blog__card-word">[...]</span>
+                    </p>
+                  </div>
+                </article>
+              </a>
+            </li>
+            <!-- Blog Item 6 -->
+            <li class="blog__item">
+              <a href="#!" class="blog__card-link">
+                <article class="blog__card">
+                  <div class="blog__card-image">
+                    <img src="./images/blog-infographics-img.webp"
+                      alt="Best American Infographics book featuring Morphocode data visualizations"
+                      class="blog__card-img"
+                      width="330"
+                      height="186"
+                      loading="lazy"
+                      decoding="async">
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">Morphocode in the Best American Infographics</h3>
+                    <span class="blog__card-decorative" aria-hidden="true"></span>
+                    <p class="blog__card-description">
+                      We are extremely happy to be included in The Best American Infographics. <span class="blog__card-word">[...]</span>
+                    </p>
+                  </div>
+                </article>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Subscribe Section -->
+      <section class="subscribe" aria-labelledby="subscribe-heading">
+        <div class="subscribe__container container">
+          <header class="subscribe__header">
+            <h2 class="subscribe__title" id="subscribe-heading">
+              Start Learning
+            </h2>
+            <div class="subscribe__side-line">
+              <p class="subscribe__subtitle">
+                Get the latest articles, <span class="subscribe__subtitle-tutorials">tutorials</span>, and <span class="subscribe__subtitle-free">free resources from Morphocode</span>
+              </p>
+            </div>
+          </header>
+          <form class="subscribe__form" 
+            action="https://api.morphocode.com/subscribe" 
+            method="POST"
+            aria-label="Subscribe for learning resources">
+            <div class="subscribe__field-group">
+              <div class="subscribe__input-wrapper">
+                <label for="subscribe-email" class="subscribe__visually-hidden">
+                Enter your email address for learning resources
+                </label>
+                <input type="email"
+                  id="subscribe-email"
+                  class="subscribe__input"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                  autocomplete="email">
+              </div>
+              <button type="submit"
+                class="subscribe__submit"
+                aria-label="Submit email for subscription">
+              Subscribe
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="footer__container container">
+        <div class="footer__container-inner">
+          <!-- Column 1: Academy -->
+          <div class="footer__col footer__links">
+            <h3 class="footer__heading">Academy</h3>
+            <nav class="footer__nav" aria-label="Academy resources">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Start Learning</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Mapping Urban Data</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Getting started with Rabbit</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- Column 2: Works -->
+          <div class="footer__col footer__links">
+            <h3 class="footer__heading">Works</h3>
+            <nav class="footer__nav" aria-label="#!">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Urban layers</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Rabbit</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">The heritage of Sofia</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">The pulse of Melbourne</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- Column 3: Blog -->
+          <div class="footer__col footer__links">
+            <h3 class="footer__heading">From the Blog</h3>
+            <nav class="footer__nav" aria-label="Blog articles">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">The use of color in maps</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Global trends of urbanization</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Small multiples</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Morphocode in the best american infographics</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Inspiration</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Featured stories</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- Column 4: Company + Social -->
+          <div class="footer__col footer__company">
+            <h3 class="footer__heading">Get to know us</h3>
+            <!-- Company links -->
+            <nav class="footer__nav" aria-label="Company information">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">About</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#!">Contact us</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Separator -->
+            <div class="footer__separator" aria-hidden="true"></div>
+            <!-- Social media -->
+            <div class="footer__social">
+              <ul class="footer__social-list" aria-label="Social media links">
+                <li class="footer__social-item">
+                  <a href="#!" 
+                    class="footer__social-link"
+                    aria-label="Follow us on Facebook"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                  <img src="./svg/icon-fb.svg" 
+                    alt=""
+                    width="10"
+                    height="19"
+                    loading="lazy"
+                    role="presentation">
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a href="#!" 
+                    class="footer__social-link"
+                    aria-label="Follow us on Twitter"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                  <img src="./svg/icon-tw.svg" 
+                    alt=""
+                    width="19"
+                    height="16"
+                    loading="lazy"
+                    role="presentation">
+                  </a>
+                </li>
+                <li class="footer__social-item">
+                  <a href="#!" 
+                    class="footer__social-link"
+                    aria-label="Follow us on LinkedIn"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                  <img src="./svg/icon-in.svg" 
+                    alt=""
+                    width="19"
+                    height="19"
+                    loading="lazy"
+                    role="presentation">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer__copyright">
+            <a href="https://www.figma.com/design/KXO5YGICORLjkt1NSyM17G/Landing-page---Morphocode?m=auto&t=nj2Qrki8yYARTswd-6" class="footer__copyright-link">
+              <p class="footer__copyright-text">
+                © <span id="current-year">2026</span> Morphocode.
+              </p>
+            </a>
+        </div>
+        </div>
+    </footer>
+  </body>
+</html>

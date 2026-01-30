@@ -1,0 +1,56 @@
+:root {
+  --font-family: "Titillium Web", sans-serif;
+  --second-family: "Sailec-Bold", sans-serif;
+  
+  --color-blue-500: #1B6CEB;
+  --color-blue-600: #1557c0;
+  --color-red-500: #D43B43;
+  --color-pink-400: #F894A5;
+  --color-purple-500: #1D6FF3;
+  --color-gray-50: #FFFFFF;
+  --color-gray-100: #EEEEEE;
+  --color-gray-700: #4a4a4a;
+  --color-gray-600: #434a54;
+  --color-gray-500: #637280;
+  --color-gray-400: rgba(102, 102, 102, 0.85);
+  
+  --color-primary: var(--color-blue-500);
+  --color-primary-dark: var(--color-blue-600);
+  --color-secondary: var(--color-red-500);
+  --color-tertiary: var(--color-pink-400);
+  --color-accent: var(--color-purple-500);
+  
+  --color-background: var(--color-gray-50);
+  --color-background-alt: var(--color-gray-100);
+  --color-background-hover: rgba(255, 255, 255, 0.1);
+  
+  --color-text-heading: var(--color-gray-700);
+  --color-text-body: var(--color-gray-600);
+  --color-text-muted: var(--color-gray-500);
+  --color-text-light: var(--color-gray-400);
+  
+  --color-border: rgba(0, 0, 0, 0.05);
+  --color-border-dark: #979797;
+  --color-divider: rgba(0, 0, 0, 0.1);
+  
+  --color-underline-analysis: var(--color-secondary);
+  --color-underline-visualization: var(--color-primary);
+  --color-side-line: var(--color-tertiary);
+  
+  --z-index-header: 10;
+  --z-index-skip-link: 1000;
+  --z-index-card-image: 1;
+  --z-index-card-content: 2;
+  
+  --font-size-xs: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+  --font-size-sm: clamp(0.8125rem, 0.7768rem + 0.1786vw, 0.9375rem);
+  --font-size-base: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+  --font-size-lg: clamp(1rem, 0.9643rem + 0.1786vw, 1.125rem);
+  --font-size-xl: clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem);
+  --font-size-2xl: clamp(1.5rem, 1.2857rem + 1.0714vw, 2.25rem);
+  --font-size-3xl: clamp(1.75rem, 1.3929rem + 1.7857vw, 3rem);
+  
+  --letter-spacing-normal: 0.01em;
+  --letter-spacing-wide: 0.02em;
+  --letter-spacing-wider: 0.05em;
+}

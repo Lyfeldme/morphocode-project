@@ -1,0 +1,242 @@
+@media (prefers-reduced-motion: reduce),
+       (hover: none) {
+  /* ===== OFF ANIMATION ===== */
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition: none !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  /* ===== OFF DECORATION ===== */
+
+  a,
+  .header__navigation-link,
+  .design-develop__link,
+  .learn__link,
+  .footer__link,
+  .blog__card-link,
+  .subscribe__submit {
+    text-decoration: none !important;
+  }
+  
+  /* ===== OFF HOVER/FOCUS/ACTIVE ===== */
+  
+  /* Header */
+  .header__logo-img:hover,
+  .header__logo-img:focus,
+  .header__logo-img:active {
+    filter: none !important;
+  }
+  
+  .header__navigation-link:hover,
+  .header__navigation-link:focus,
+  .header__navigation-link:active {
+    color: inherit !important;
+    background-color: transparent !important;
+  }
+  
+  .header__navigation-link:hover .link-text {
+    transform: none !important;
+  }
+  
+  /* Hero section */
+  .hero__image-img:hover {
+    transform: none !important;
+  }
+  
+  /* Design-develop section */
+  .design-develop__image-img:hover {
+    transform: none !important;
+  }
+  
+  .design-develop__link:hover,
+  .design-develop__link:focus,
+  .design-develop__link:active {
+    text-decoration: none !important;
+    filter: none !important;
+  }
+  
+  /* Learn section */
+  .learn__image-img:hover {
+    transform: none !important;
+  }
+  
+  .learn__link:hover,
+  .learn__link:focus,
+  .learn__link:active {
+    text-decoration: none !important;
+    filter: none !important;
+  }
+  
+  /* ===== BLOG OFF ===== */
+  .blog__card-link {
+    transform: none !important;
+  }
+  
+  .blog__card-link:hover,
+  .blog__card-link:focus {
+    transform: none !important;
+  }
+  
+  .blog__card-image,
+  .blog__card-content,
+  .blog__card-link:hover .blog__card-image,
+  .blog__card-link:hover .blog__card-content,
+  .blog__card-link:focus .blog__card-image,
+  .blog__card-link:focus .blog__card-content {
+    border-color: transparent !important;
+  }
+  
+  .blog__card-img,
+  .blog__card-link:hover .blog__card-img,
+  .blog__card-link:focus .blog__card-img {
+    transform: none !important;
+  }
+  
+  .blog__card-title,
+  .blog__card-link:hover .blog__card-title,
+  .blog__card-link:focus .blog__card-title {
+    color: inherit !important;
+  }
+  
+  .blog__card-decorative,
+  .blog__card-link:hover .blog__card-decorative,
+  .blog__card-link:focus .blog__card-decorative {
+    width: 29px !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  /* Subscribe section */
+  .subscribe__submit:hover:not(:disabled),
+  .subscribe__submit:focus:not(:disabled),
+  .subscribe__submit:active:not(:disabled) {
+    background-color: inherit !important;
+    transform: none !important;
+  }
+  
+  .subscribe__input:focus {
+    border-color: inherit !important;
+    box-shadow: none !important;
+  }
+  
+  /* Footer */
+  .footer__copyright-link:hover {
+    background-color: transparent !important;
+    transform: none !important;
+  }
+  
+  .footer__copyright-link:hover .footer__copyright-text {
+    color: inherit !important;
+  }
+  
+  .footer__social-link,
+  .footer__col:hover .footer__social-link,
+  .footer__col:hover .footer__social-link:hover {
+    transform: none !important;
+    filter: none !important;
+  }
+  
+  /* ===== OFF ===== */
+  .hero__content:hover .hero__highlight--analysis,
+  .hero__content:hover .hero__highlight--visualization,
+  .design-develop__content:hover .design-develop--design,
+  .design-develop__content:hover .design-develop--develop,
+  .learn__content:hover .learn__highlight--learn,
+  .learn__content:hover .learn__highlight--code {
+    text-decoration: none !important;
+  }
+  
+  .subscribe__container:hover .subscribe__subtitle-tutorials,
+  .subscribe__container:hover .subscribe__subtitle-free,
+  .subscribe__container:focus-within .subscribe__subtitle-tutorials,
+  .subscribe__container:focus-within .subscribe__subtitle-free {
+    color: inherit !important;
+  }
+  
+  /* Footer hover effects */
+  .footer__col:hover .footer__heading::after {
+    transform: none !important;
+  }
+  
+  .footer__col:hover .footer__heading {
+    color: inherit !important;
+  }
+  
+  .footer__col:hover .footer__link {
+    color: inherit !important;
+    transform: none !important;
+  }
+  
+  .footer__col:hover .footer__link:hover {
+    color: inherit !important;
+    transform: none !important;
+  }
+  
+  .footer__col:hover .footer__separator {
+    width: 29px !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  /* ===== DELETE ANIMATION ===== */
+  .header__navigation-link--academy::before,
+  .header__navigation-link--academy::after,
+  .header__navigation-link--blog::before,
+  .header__navigation-link--blog::after,
+  .header__navigation-link--work::before,
+  .header__navigation-link--work::after,
+  .header__navigation-link--contact::before,
+  .header__navigation-link--contact::after,
+  .header__navigation-link--about::before,
+  .header__navigation-link--about::after,
+  .hero__side-line::before,
+  .design-develop__side-line::before,
+  .learn__side-line::before,
+  .subscribe__side-line::before,
+  .subscribe__title::after,
+  .footer__heading::after,
+  .footer__link::after {
+    content: none !important;
+    display: none !important;
+  }
+  
+  /* ===== OFF TRNNSFORM ===== */
+  .link-text {
+    transform: none !important;
+  }
+  
+  /* ===== OFF ANIMATION DECORATION ===== */
+  .hero__highlight.hero__highlight--analysis,
+  .hero__highlight.hero__highlight--visualization,
+  .design-develop--design,
+  .design-develop--develop,
+  .learn__highlight--learn,
+  .learn__highlight--code {
+    text-decoration: none !important;
+  }
+  
+  /* ===== OFF ANIMATION ELEMENT ===== */
+  .hero__title,
+  .hero__description {
+    animation: none !important;
+  }
+  
+  /* ===== SAVE ===== */
+  :focus {
+    outline: 2px solid var(--color-primary, #1B6CEB) !important;
+    outline-offset: 2px !important;
+  }
+  
+  .skip-to-main.visually-hidden:focus {
+    z-index: var(--z-index-skip-link, 1000) !important;
+  }
+  
+  /* ===== OFF SCROLL ===== */
+  html {
+    scroll-behavior: auto !important;
+  }
+}
